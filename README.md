@@ -5,6 +5,7 @@ Author: Michael Chand
 
 Notes:
 The PackPlanner application will take input in one of two ways:
+
 -A single comma seperated string of input as a command line argument
 
 OR

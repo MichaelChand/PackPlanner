@@ -1,11 +1,6 @@
 /*
 Author: Michael Chand
-Kotlin is capable of using Java libraries. Taking advantage of this I am using these java imports
-to format to 2 dp as cannot find simpler kotlin alternatives.
  */
-
-import java.math.RoundingMode
-import java.text.DecimalFormat
 
 class Display(packList: MutableList<Pack>) {
     var packs = packList
@@ -29,9 +24,7 @@ class Display(packList: MutableList<Pack>) {
     }
 
     private fun displayPackInfo(pack: Pack) {
-        val decimalFormat = DecimalFormat("#.##")
-        decimalFormat.roundingMode = RoundingMode.CEILING
-        println("Pack Length: ${pack.length}, Pack Weight: ${decimalFormat.format(pack.totalWeight)}")
+        println("Pack Length: ${pack.length}, Pack Weight: ${String.format("%.3f", pack.totalWeight).toDouble()}")
         println("")
     }
 }
