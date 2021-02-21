@@ -74,14 +74,14 @@ class InputValidation(args : Array<String>) {
         var inpArray = inp.split(",")
         var inputCriteria: String = inpArray[0]+","+ inpArray[1]+","+inpArray[2]
         var inputItems = Array<String>(1+(inpArray.size - 3)/4) { "it = $it" }
-        var k: Int = 0
-        inputItems[k++] = inputCriteria
+        var index: Int = 0
+        inputItems[index++] = inputCriteria
         for(i in 3 until inpArray.size step 4) {
             var line : String = ""
             for(j in i until i+4) {
                 line += inpArray[j] + if(j < i+3) "," else ""
             }
-            inputItems[k++] = line
+            inputItems[index++] = line
         }
         return inputItems
     }
