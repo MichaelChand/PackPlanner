@@ -23,11 +23,11 @@ class InputValidation(args : Array<String>) {
         return items
     }
 
-    fun getCriteria() : Constraint {
+    fun getConstraint() : Constraint {
         return constraint!!
     }
 
-    private fun buildCriteria() {
+    private fun buildConstraint() {
         if(this.constraint == null) {
             this.constraint = Constraint()
             this.constraint!!.sortOrder = SortOrder.valueOf(inputConstraint[0].toUpperCase())
@@ -54,7 +54,7 @@ class InputValidation(args : Array<String>) {
             for(i in 0 until inp.size) {
                 if(i == 0) {
                     inputConstraint = inp[0].split(",").toTypedArray()
-                    buildCriteria()
+                    buildConstraint()
                 }
                 else {
                     var inputItems = inp[i].split(",").toTypedArray()

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df3123f7-3a99-4861-9bfb-48188df2badd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PackPlanner/InputValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PackPlanner/InputValidation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PackPlanner/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PackPlanner/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/InputValidation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/InputValidation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
