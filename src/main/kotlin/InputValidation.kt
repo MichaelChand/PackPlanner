@@ -1,7 +1,7 @@
 /*
 Author: Michael Chand.
-NOTE: variable "criteria" is always initialised before use due to class structure.
-However this is not Thread safe and under threading, criteria could be accessed when null.
+NOTE: variable "constraint" is always initialised before use due to class structure.
+However this is not Thread safe and under threading, constraint could be accessed when null.
 Therefore this is not a thread safe class.
  */
 class InputValidation(args : Array<String>) {

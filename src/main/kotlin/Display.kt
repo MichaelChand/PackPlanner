@@ -1,3 +1,9 @@
+/*
+Author: Michael Chand
+Kotlin is capable of using Java libraries. Taking advantage of this I am using these java imports
+to format to 2 dp as cannot find simpler kotlin alternatives.
+ */
+
 import java.math.RoundingMode
 import java.text.DecimalFormat
 

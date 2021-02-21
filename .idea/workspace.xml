@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df3123f7-3a99-4861-9bfb-48188df2badd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/PackPlanner/InputValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PackPlanner/InputValidation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PackPlanner/MainKt$WhenMappings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PackPlanner/MainKt$longToShortSorting$$inlined$sortByDescending$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PackPlanner/MainKt$shortToLongSorting$$inlined$sortBy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PackPlanner/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PackPlanner/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PackPlanner/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PackPlanner/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Display.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Display.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/InputValidation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/InputValidation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Item.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +48,7 @@
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="PackPlanner" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="NATURAL,40,500.0,1001,6200,30,9.653,2001,7200,50,11.21,3001,5300,10,100.1" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
