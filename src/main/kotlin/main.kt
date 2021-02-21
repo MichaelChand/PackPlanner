@@ -16,10 +16,10 @@ fun getValidatedInput(args: Array<String>) : InputValidation? {
         inputArray = args
     }
     else {
-        var scannedInputList : MutableList<String> = mutableListOf()
+        val scannedInputList : MutableList<String> = mutableListOf()
         var read = true
         while(read){
-            var line = readLine()
+            val line = readLine()
             if(!line.isNullOrBlank())
                 scannedInputList.add(line)
             else
