@@ -8,7 +8,6 @@ class Display(packList: MutableList<Pack>) {
     fun output() {
         for(pack in packs) {
             displayPackNumber(pack)
-
             for(item in pack.itemMap) {
                 print("${item.value.id},")
                 print("${item.value.length},")
