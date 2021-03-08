@@ -47,7 +47,7 @@ fun naturalSorting(constraint: Constraint, items: Array<Item>) : MutableList<Pac
     for(item in items) {
         val curItem = item.copy()
         while (curItem.quantity > 0) {
-            if (pack.totalItems < constraint.maxItems && (pack.totalWeight + curItem.weight) < constraint.maxWeight) {
+            if (pack.totalItems < constraint.maxItems && (pack.totalWeight + curItem.weight) <= constraint.maxWeight) {
                 if(!pack.itemMap.containsKey(curItem.id)) {
                     val newItem = curItem.copy()
                     newItem.quantity = 0

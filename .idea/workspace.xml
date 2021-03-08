@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df3123f7-3a99-4861-9bfb-48188df2badd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PackPlanner_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PackPlanner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PackPlanner/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PackPlanner/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
